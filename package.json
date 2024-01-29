@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "execute-go",
+  "version": "0.1.0",
+  "description": "Execute Go code in CognigyAI environment.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tar cfz execute-go.tar.gz src/* tmp/ go/*  package.json package-lock.json README.MD icon.png LICENSE"
+  },
+  "keywords": [
+    "Cognigy",
+    "AI",
+    "Go",
+    "Golang"
+  ],
+  "author": "Teodor Ionescu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgbv/cognigy-exec-golang"
+  },
+  "dependencies": {
+    "@cognigy/extension-tools": "^0.15.1"
+  }
+}
